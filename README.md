@@ -26,9 +26,9 @@
 - Developed a **React + Spring Boot-based e-commerce platform for pet products**  
 - Features **product listing, shopping cart, secure checkout, and order management**  
 
-### 🐾 **Animal Adoption Platform** ([GitHub Repo](https://github.com/LING-6150/Animal-Adoption))  
-- Developed a **React + Spring Boot-based animal adoption platform**  
-- Features include **user authentication, pet listings, adoption requests, and admin management**  
+### 📊 **Smart BI Platform** ([GitHub Repo](https://github.com/LING-6150/Smart-BI-Platform-V2))  
+- Built an **AI-driven BI system** that enables **real-time data visualization & insights**  
+- Implemented **RabbitMQ for event-driven data updates** and **optimized queries using Elasticsearch & MySQL**  
 
 ### 📱 **Smartphone Ecosystem** ([GitHub Repo](https://github.com/Yuying-Jin/SmartphoneEcosystem))  
 - Designed a **smartphone ecosystem** with real-time **device analytics and API integrations**  
@@ -38,9 +38,6 @@
 - Built a **full-stack food ordering platform** using **React & Spring Boot**  
 - Integrated **real-time order tracking, payment gateway, and admin dashboard**  
 
-### 📊 **Smart BI Platform** ([GitHub Repo](https://github.com/LING-6150/Smart-BI-Platform-V2))  
-- Built an **AI-driven BI system** that enables **real-time data visualization & insights**  
-- Implemented **RabbitMQ for event-driven data updates** and **optimized queries using Elasticsearch & MySQL**  
 
 ---
 
