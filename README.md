@@ -22,6 +22,20 @@
 
 ## 📌 Featured Projects  
 
+🖼️ AI Image Cloud Platform (GitHub Repo)
+Designed and deployed a full-stack image management system powered by AI-based tagging and search
+
+Developed with Spring Boot (backend) and React (frontend), deployed using Docker & Kubernetes
+
+Integrated Redis for image caching and S3-compatible storage for scalable image uploads
+
+🧠 NLP API Demo (GitHub Repo)
+Built a FastAPI-based microservice to extract entities and keywords from academic manuscripts
+
+Integrated Redis caching, OpenAI API, and custom embedding logic for NLP-enhanced analysis
+
+Deployed in a containerized environment, supporting real-time query responses for downstream apps
+
 ### 🐶 **Animal Products App** ([GitHub Repo](https://github.com/LING-6150/animal-products-app))  
 - Developed a **React + Spring Boot-based e-commerce platform for pet products**  
 - Features **product listing, shopping cart, secure checkout, and order management**  
