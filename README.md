@@ -22,19 +22,15 @@
 
 ## 📌 Featured Projects  
 
-🖼️ AI Image Cloud Platform (GitHub Repo)
-Designed and deployed a full-stack image management system powered by AI-based tagging and search
+### 🖼️ **AI Image Cloud Platform** ([GitHub Repo](https://github.com/LING-6150/new-ai-image-cloud-platform))  
+- Developed a **full-stack AI-powered image management system** with intelligent tagging and search features  
+- Built using **Spring Boot (backend)** and **React (frontend)**, with **Redis** and **S3-compatible storage**  
+- Deployed with **Docker & Kubernetes**, enabling scalable upload and classification workflows  
 
-Developed with Spring Boot (backend) and React (frontend), deployed using Docker & Kubernetes
-
-Integrated Redis for image caching and S3-compatible storage for scalable image uploads
-
-🧠 NLP API Demo (GitHub Repo)
-Built a FastAPI-based microservice to extract entities and keywords from academic manuscripts
-
-Integrated Redis caching, OpenAI API, and custom embedding logic for NLP-enhanced analysis
-
-Deployed in a containerized environment, supporting real-time query responses for downstream apps
+### 🧠 **NLP API Demo** ([GitHub Repo](https://github.com/LING-6150/nlp-api-demo))  
+- Created a **FastAPI-based microservice** for **named entity recognition** and **keyword extraction**  
+- Integrated **OpenAI API**, **Redis caching**, and **custom embedding logic** for semantic analysis  
+- Containerized for deployment, enabling **real-time NLP capabilities** for downstream applications  
 
 ### 🐶 **Animal Products App** ([GitHub Repo](https://github.com/LING-6150/animal-products-app))  
 - Developed a **React + Spring Boot-based e-commerce platform for pet products**  
@@ -50,7 +46,7 @@ Deployed in a containerized environment, supporting real-time query responses fo
 
 ### 🍽 **Food Order System (Bella Italia)** ([GitHub Repo](https://github.com/LING-6150/Bella-Italia))  
 - Built a **full-stack food ordering platform** using **React & Spring Boot**  
-- Integrated **real-time order tracking, payment gateway, and admin dashboard**  
+- Integrated **real-time order tracking, payment gateway, and admin dashboard**
 
 
 ---
