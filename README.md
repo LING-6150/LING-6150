@@ -1,66 +1,100 @@
-# 🌟 Hello World, I'm Duan Ling
+# 🚀 Duan Ling | Full-Stack Engineer (AI-Integrated Systems)
 
-**Master's Student in Information Systems | Software Engineer**
+Master’s Student in Information Systems @ Northeastern University  
 
-🔹 Focus: **Scalable Systems and Databases | Full-Stack Development**  
-🔹 Passionate about **building intelligent systems, optimizing data pipelines, and enhancing user experiences**  
-
-📫 **Contact:**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/duan-ling-9970ba350/)  
-📧 duan.lin@northeastern.edu  
+I build production-ready full-stack systems and integrate intelligent AI workflows into scalable backend architectures.
 
 ---
 
-## 🚀 Tech Stack
+## 🧠 Core Focus
+
+- End-to-end Full-Stack Development (Frontend → Backend → Database → Cloud)
+- AI-Augmented Web Applications (LLM + Tool Calling + RAG)
+- High-Concurrency Backend Systems (SSE Streaming, WebSocket, Rate Limiting)
+- Distributed Systems & API Gateway Architecture
+- Cloud Deployment & Reverse Proxy Optimization (AWS EC2 + Nginx)
+
+---
+
+## ⚙️ Tech Stack
+
 **Languages:** Java, Python, SQL, JavaScript  
-**Frontend:** React.js, Vue.js, Ant Design, ECharts  
-**Backend:** Spring Boot, Flask, Node.js, RabbitMQ, Redis, Elasticsearch  
-**Databases:** MySQL, PostgreSQL, MongoDB  
-**DevOps & Cloud:** AWS (ECS, Lambda, S3), Docker, GitHub Actions  
+**Frontend:** Vue 3, React  
+**Backend:** Spring Boot, Redis, MySQL, PostgreSQL, Dubbo  
+**AI & LLM:** Spring AI, LangChain4j, LangGraph4j, RAG, PGVector  
+**Distributed Systems:** ShardingSphere, Redis, Caffeine  
+**Cloud & DevOps:** AWS EC2, Docker, Nginx, GitHub Actions  
+**Observability:** Prometheus, Grafana, Micrometer  
 
 ---
 
-## 📌 Featured Projects  
-
-### 🖼️ **AI Image Cloud Platform** ([GitHub Repo](https://github.com/LING-6150/new-ai-image-cloud-platform))  
-- Developed a **full-stack AI-powered image management system** with intelligent tagging and search features  
-- Built using **Spring Boot (backend)** and **React (frontend)**, with **Redis** and **S3-compatible storage**  
-- Deployed with **Docker & Kubernetes**, enabling scalable upload and classification workflows  
-
-### 🧠 **NLP API Demo** ([GitHub Repo](https://github.com/LING-6150/nlp-api-demo))  
-- Created a **FastAPI-based microservice** for **named entity recognition** and **keyword extraction**  
-- Integrated **OpenAI API**, **Redis caching**, and **custom embedding logic** for semantic analysis  
-- Containerized for deployment, enabling **real-time NLP capabilities** for downstream applications  
-
-### 🐶 **Animal Products App** ([GitHub Repo](https://github.com/LING-6150/animal-products-app))  
-- Developed a **React + Spring Boot-based e-commerce platform for pet products**  
-- Features **product listing, shopping cart, secure checkout, and order management**  
-
-### 📊 **Smart BI Platform** ([GitHub Repo](https://github.com/LING-6150/Smart-BI-Platform-V2))  
-- Built an **AI-driven BI system** that enables **real-time data visualization & insights**  
-- Implemented **RabbitMQ for event-driven data updates** and **optimized queries using Elasticsearch & MySQL**  
-
-### 📱 **Smartphone Ecosystem** ([GitHub Repo](https://github.com/Yuying-Jin/SmartphoneEcosystem))  
-- Designed a **smartphone ecosystem** with real-time **device analytics and API integrations**  
-- Developed **Java-based backend** for handling app installations, updates, and permissions  
-
-### 🍽 **Food Order System (Bella Italia)** ([GitHub Repo](https://github.com/LING-6150/Bella-Italia))  
-- Built a **full-stack food ordering platform** using **React & Spring Boot**  
-- Integrated **real-time order tracking, payment gateway, and admin dashboard**
-
+# 🌟 Featured Projects
 
 ---
 
-## 📈 GitHub Stats  
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=LING-6150&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+## 🏗 AI Web Application Generation Platform  
+🔗 https://github.com/LING-6150/ling-ai-generation-engine  
 
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LING-6150&layout=compact&theme=tokyonight" alt="Top Languages" />
+Production-grade full-stack AI system converting natural language prompts into deployable web applications.
+
+- Designed multi-mode AI generation pipeline (HTML / Multi-file / Vue 3) with LLM routing
+- Eliminated concurrent request serialization caused by synchronous SSE parsing, improving latency by **28%**
+- Built secure Tool Calling system enabling incremental code modification
+- Implemented distributed token-bucket rate limiting and daily token quota control
+- Deployed on AWS EC2 with Nginx reverse proxy, ensuring stable real-time streaming
 
 ---
 
-## 📅 Contribution Timeline  
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=LING-6150&theme=tokyonight" alt="GitHub Streak" />
+## 🧠 AI Knowledge Agent Platform  
+🔗 https://github.com/LING-6150/ling-ai-agent  
+
+Autonomous agent system with production RAG pipeline and multi-LLM routing.
+
+- Designed layered agent architecture (BaseAgent → ReAct → ToolCall → LingManus)
+- Built RAG pipeline using PostgreSQL + PGVector (HNSW indexing)
+- Implemented non-blocking SSE streaming sustaining 41 req/min under concurrent load
+- Containerized and deployed on AWS EC2
 
 ---
 
-🚀 *Open to collaborations and always learning! Let's build something amazing together!* 🚀
+## 🌐 API Gateway & Integration Platform  
+🔗 https://github.com/LING-6150/API-Integrity-Platform  
+
+Centralized gateway for authentication, routing, and distributed traffic control.
+
+- Designed API Gateway managing 20+ services
+- Implemented circuit breaking and Redis-backed rate limiting
+- Developed AK/SK signature-based authentication with replay protection
+- Integrated Dubbo RPC with graceful degradation strategies
+
+---
+
+## 🖼 AI Image Cloud Platform  
+🔗 https://github.com/LING-6150/your-image-repo  
+
+AI-powered collaborative image management system designed for scalability and high concurrency.
+
+- Designed real-time collaboration backend using WebSocket synchronization with optimistic locking, maintaining sub-200ms latency under 100+ concurrent users
+- Built RBAC-based access control and hybrid search pipeline combining metadata indexing with semantic retrieval
+- Reduced database contention via ShardingSphere and multi-level caching (80%+ cache hit rate)
+- Integrated object storage + CDN distribution for scalable image delivery
+- Implemented AI-driven tagging and semantic indexing for similarity search
+
+---
+
+## 📊 GitHub Stats
+
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=LING-6150&show_icons=true&theme=tokyonight" />
+
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LING-6150&layout=compact&theme=tokyonight" />
+
+---
+
+## 📫 Contact
+
+LinkedIn: https://www.linkedin.com/in/duan-ling-9970ba350/  
+Email: duan.lin@northeastern.edu  
+
+---
+
+⭐ Open to Full-Stack / Backend / AI Application Engineering opportunities
