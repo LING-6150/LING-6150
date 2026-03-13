@@ -1,242 +1,122 @@
-🚀 Duan Ling | AI Systems & Full-Stack Engineer
+# Ling Duan — AI Systems & Backend Engineer
 
-MS in Information Systems @ Northeastern University
+**MS Information Systems · Northeastern University**
 
-I build production-grade AI systems and full-stack platforms, focusing on LLM-powered applications, agent workflows, and scalable backend infrastructure.
+I build production-grade AI systems — RAG pipelines, autonomous agent frameworks, and scalable backend infrastructure. Focused on making LLM applications reliable and deployable in the real world.
 
-My work combines AI system design, distributed backend engineering, and cloud deployment to bring intelligent applications into production.
+> Open to **AI Application Engineering / AI Backend / Full-Stack** roles
 
-🧠 AI Systems Expertise
+---
 
-Retrieval-Augmented Generation (RAG)
+## Technical Stack
 
-Autonomous Agent Systems (ReAct / Tool Calling)
+**AI & LLM Systems**
 
-Multi-Agent Workflow Orchestration
+![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=flat&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-7F77DD?style=flat&logoColor=white)
+![ReAct Agents](https://img.shields.io/badge/ReAct_Agents-7F77DD?style=flat&logoColor=white)
+![PGVector](https://img.shields.io/badge/PGVector-7F77DD?style=flat&logoColor=white)
+![LangSmith](https://img.shields.io/badge/LangSmith-7F77DD?style=flat&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP_Protocol-7F77DD?style=flat&logoColor=white)
 
-LLM Evaluation & Benchmarking
+**Backend**
 
-Vector Search & Hybrid Retrieval
+![Java](https://img.shields.io/badge/Java-1D9E75?style=flat&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-1D9E75?style=flat&logoColor=white)
+![Python](https://img.shields.io/badge/Python-1D9E75?style=flat&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-1D9E75?style=flat&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1D9E75?style=flat&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-1D9E75?style=flat&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-1D9E75?style=flat&logoColor=white)
 
-High-Concurrency AI Systems (SSE streaming)
+**Frontend**
 
-⚙️ Technical Stack
+![Vue 3](https://img.shields.io/badge/Vue_3-378ADD?style=flat&logoColor=white)
+![React](https://img.shields.io/badge/React-378ADD?style=flat&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-378ADD?style=flat&logoColor=white)
 
-Languages
+**Cloud & DevOps**
 
-Java · Python · SQL · JavaScript · TypeScript
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-BA7517?style=flat&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-BA7517?style=flat&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-BA7517?style=flat&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-BA7517?style=flat&logoColor=white)
 
-Backend
+---
 
-Spring Boot · FastAPI · Redis · PostgreSQL · MySQL
+## Performance Highlights
 
-Frontend
+| Metric | Result |
+|--------|--------|
+| Embedding API cost reduction | **93%** (30 → 2 calls/doc via batching + SHA-256 dedup) |
+| RAG throughput | **~41 req/min**, P95 6.1s, **0% error** (JMeter) |
+| RAGAS answer relevancy | **0.952** |
+| LLM eval platform throughput | **4,800+ req/sec**, P99 328ms |
+| Redis cache latency | **1,962ms → 0ms** on cache hits |
 
-Vue 3 · React
+---
 
-AI & LLM Systems
+## Featured Projects
 
-Spring AI · LangChain4j · LangGraph4j
-RAG Pipelines · Agent Architectures · PGVector
-Cross-Encoder Reranking · RAGAS Evaluation
-
-Data Systems
-
-Apache Kafka · RabbitMQ · Elasticsearch
-
-Cloud & DevOps
-
-AWS EC2 · Docker · Kubernetes
-Nginx · GitHub Actions · Linux
-
-Observability
-
-Prometheus · Grafana · Micrometer
-
-🌟 Featured Projects
-🏥 Ling Clinic — AI-Powered Healthcare Platform
-
-🔗 https://github.com/LING-6150/Ling-clinic-healthcare
-
-🌐 Live Demo
-http://98.93.64.174
-
-Full-stack healthcare platform integrating a RAG-based AI health assistant with clinic management.
-
-Tech
-
-Spring Boot · Vue 3 · PostgreSQL · PGVector · AWS EC2 · Nginx
-
-Features
-
-Patient System
-
-Secure authentication and session management
-
-Appointment booking and cancellation
-
-AI health assistant grounded in internal medical knowledge base
-
-Admin System
-
-Medical document upload pipeline
-
-Automated semantic chunking and embedding generation
-
-Knowledge base management
-
-RAG Architecture
-
-Document Pipeline
-
-Upload PDF/TXT
-↓
-Text Extraction (PDFBox)
-↓
-SHA-256 Deduplication
-↓
-Semantic Chunking
-↓
-Embedding Generation (OpenAI)
-↓
-PGVector Storage (HNSW index)
-
-Query Pipeline
-
-User Question
-↓
-Embedding
-↓
-
-Hybrid Retrieval
-
-Vector Search (PGVector)
-Keyword Search (PostgreSQL FTS)
-
-↓
-Reciprocal Rank Fusion (RRF)
-↓
-Top-K Context
-↓
-LLM Prompt Construction
-↓
-OpenAI Chat API
-↓
-SSE Streaming Response
-
-Evaluation (RAGAS)
-Metric	Score
-Faithfulness	0.896
-Answer Relevancy	0.952
-Latency	310 ms
-📊 LLM Evaluation Platform
-
-🔗 https://github.com/LING-6150/llm-eval-platform
-
-Distributed system for benchmarking LLM reliability, latency, and output quality.
-
-Tech
-
-Spring Boot · Redis · Apache Kafka · CockroachDB · Prometheus · React
-
-Key Contributions
-
-Designed distributed evaluation pipeline using Kafka message streaming
-
-Decoupled model inference (2–37s latency) from API responses
-
-Implemented retry strategies and dead-letter queues
-
-Sustained 4,800+ requests/sec with P99 latency 328ms
-
-Optimization
-
-Redis Lua-based atomic prompt-result caching
-
-Cache hits reduced latency 1962ms → 0ms
-
-Eliminated redundant LLM token usage
-
-Observability
-
-Elasticsearch indexing for prompt search
-
-Prometheus + Grafana monitoring
-
-🧠 AI Knowledge Agent Platform
-
-🔗 https://github.com/LING-6150/ling-ai-agent
+### [AI Knowledge Agent Platform](https://github.com/LING-6150/ling-ai-agent)
 
 Autonomous AI agent system integrating RAG pipelines with tool-calling agents.
 
-Key Contributions
+- Hybrid retrieval: vector search (PGVector HNSW) + BM25 via RRF fusion, cross-encoder reranking (ms-marco-MiniLM-L-6-v2) via Python FastAPI
+- ReAct hierarchical agent: `BaseAgent → ReActAgent → ToolCallAgent → LingManus` with stuck-state detection and human-in-the-loop escalation
+- 8 tool callbacks + custom MCP Server (Pexels image search, Stdio/SSE transport) + Amap location MCP integration
+- LangSmith tracing via OpenTelemetry · SSE streaming · CI/CD with Docker Buildx ARM→amd64
 
-Designed hierarchical agent architecture
+`Spring Boot` `Spring AI` `PGVector` `Python FastAPI` `Vue 3` `AWS EC2` `LangSmith`
 
-BaseAgent → ReActAgent → ToolCallAgent → LingManus
+---
 
-Built PGVector vector search pipeline (HNSW indexing)
+### [Ling Clinic — AI Healthcare Platform](https://github.com/LING-6150/Ling-clinic-healthcare) · [Live Demo](http://98.93.64.174)
 
-Integrated LangSmith tracing via OpenTelemetry
+Full-stack clinic platform with a RAG-based AI health assistant grounded in an internal medical knowledge base.
 
-Implemented real-time SSE streaming responses
+- RAG pipeline: PDF ingestion → SHA-256 dedup → chunking → OpenAI embedding → PGVector (HNSW) → hybrid retrieval → RRF → SSE streaming
+- RAGAS evaluation: Faithfulness **0.896** · Answer Relevancy **0.952** · Latency **310ms**
+- Patient booking system + admin document upload pipeline + knowledge base management
 
-🏗 AI Web Application Generation Platform
+`Spring Boot` `Vue 3` `PostgreSQL` `PGVector` `OpenAI` `AWS EC2` `Nginx`
 
-🔗 https://github.com/LING-6150/ling-ai-generation-engine
+---
 
-AI system converting natural language prompts into deployable web applications.
+### [LLM Evaluation Platform](https://github.com/LING-6150/llm-eval-platform)
 
-Key Contributions
+Distributed system for benchmarking LLM reliability, latency, and output quality.
 
-Designed multi-mode generation pipeline
+- Kafka-based async pipeline decoupling model inference (2–37s) from API responses
+- Redis Lua atomic caching: latency **1,962ms → 0ms** on cache hits
+- Sustained **4,800+ req/sec**, P99 **328ms** · retry strategies + dead-letter queues
+- Elasticsearch prompt search · Prometheus + Grafana observability
 
-Diagnosed concurrency bottleneck in SSE parsing
+`Spring Boot` `Apache Kafka` `Redis` `CockroachDB` `Prometheus` `Grafana` `React`
 
-Enabled parallel streaming execution
+---
 
-Reduced generation latency by 28%
+### [API Gateway & Integration Platform](https://github.com/LING-6150/API-Integrity-Platform)
 
-🌐 API Gateway & Integration Platform
+Distributed gateway handling authentication, routing, and traffic control across 20+ backend services.
 
-🔗 https://github.com/LING-6150/API-Integrity-Platform
+- Redis-based rate limiting and circuit breaker · AK/SK signature authentication · Dubbo RPC integration
 
-Distributed gateway handling authentication, routing, and traffic control.
+`Spring Boot` `Redis` `Dubbo`
 
-Key Contributions
+---
 
-Managed routing across 20+ backend services
+### [AI Web Generation Engine](https://github.com/LING-6150/ling-ai-generation-engine)
 
-Redis-based rate limiting and circuit breaker
+Natural language prompts → deployable web applications.
 
-AK/SK signature authentication
+- Diagnosed concurrency bottleneck in SSE parsing · parallel streaming execution reduced latency by **28%**
 
-Dubbo RPC integration
+`Spring Boot` `SSE`
 
-🖼 AI Image Cloud Platform
+---
 
-🔗 https://github.com/LING-6150/your-image-repo
+## Contact
 
-AI-powered collaborative image management system.
-
-Key Contributions
-
-WebSocket-based real-time synchronization
-
-Sub-200ms latency under 100+ concurrent users
-
-Hybrid semantic + metadata search
-
-Multi-level caching reducing DB contention
-
-📊 GitHub Stats
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=LING-6150&show_icons=true&theme=tokyonight" /> <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LING-6150&layout=compact&theme=tokyonight" />
-📫 Contact
-
-LinkedIn
-https://www.linkedin.com/in/duan-ling-9970ba350/
-
-Email
-duan.lin@northeastern.edu
-
-⭐ Open to AI Application Engineering / Backend / Full-Stack roles
+- LinkedIn: [duan-ling-9970ba350](https://www.linkedin.com/in/duan-ling-9970ba350/)
+- Email: duan.lin@northeastern.edu
