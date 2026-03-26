@@ -4,7 +4,7 @@
 
 I build production-grade AI systems — RAG pipelines, autonomous agent frameworks, and scalable backend infrastructure. Focused on making LLM applications reliable and deployable in the real world.
 
-> Open to **AI Application Engineering / AI Backend / Full-Stack** roles
+> Open to **Open to AI Infra / LLMOps / AI Backend Engineering roles** roles
 
 ---
 
